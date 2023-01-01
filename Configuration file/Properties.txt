@@ -1,0 +1,4 @@
+url=https://www.amazon.in/
+emailId=prakashmorya1974@gmail.com
+password=Papamummy@8888
+browser=ch

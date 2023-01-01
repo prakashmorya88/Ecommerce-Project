@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="org.TestCases.CheckoutTestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="indexPage_SignIn"/>
+          <include name="teardown"/>
+          <include name="HomePage_MoveToCart"/>
+          <include name="Cart_MoveToCheckout"/>
+        </methods>
+      </class> <!-- org.TestCases.CheckoutTestCase -->
+      <class name="org.TestCases.ShoppingCartTestCase">
+        <methods>
+          <include name="HomePage_MoveToCart"/>
+          <include name="indexPage_SignIn"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.TestCases.ShoppingCartTestCase -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
